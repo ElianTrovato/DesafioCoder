@@ -1,0 +1,236 @@
+
+.departamentos{
+    background: linear-gradient(90deg, rgb(63, 55, 55) 0%, rgb(163, 135, 110) 50%, rgb(95, 87, 87) 100%);
+    
+    .bloque{ 
+        margin-top: 30px;
+        .titulo{
+            color: black;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: underline;
+        }
+        .detalle{
+            display: flex;
+            justify-content: center;
+            .slide{
+                width: 950px;
+                margin-top: 50px;
+                border: 2px solid black;
+            }
+        }  
+        .detalle2{
+            .img{
+                height: 500px;
+            }
+        }
+        .bloquePng{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            gap: 100px;
+            .texto{
+                color: black;
+                text-align: center;
+                font-weight: 700;
+            }
+        }
+        .bloquePrecio{
+            margin-top: 30px;
+            border: 2px solid black;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+
+            .precio{
+                font-weight: 700;
+                color: black;
+                text-align: center;
+            }
+            .seña{
+                text-align: center;
+            }
+            
+        }
+        .bloqueInfo{
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            gap: 50px;
+            margin-bottom: 50px;
+            .info{
+                border: 3px solid rgb(77, 76, 76);
+                margin-top: 100px;
+                height: auto;
+                width: 350px;
+                display: flex;
+                flex-direction: column;
+                font-size: 20px;
+                font-family: cursive;
+                background-color: rgba(255, 255, 255, 0.322);
+                color: black;
+                .wp{
+                    align-self: center;
+                }
+                
+            }
+            
+        }
+        
+    }
+} 
+@media screen and (max-width:1000px) {
+    .departamentos{
+        .bloque{ 
+            .bloquePng{
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                gap: 100px;
+                .texto{
+                    color: black;
+                    text-align: center;
+                    font-weight: 700;
+                }
+            }
+            .bloqueInfo{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-content: flex-start;
+                align-items: initial;
+                .info{
+                    width: 800px;
+                    display: flex;
+                    align-self: center; 
+                    .mapa{
+                        width: 794px;
+                    }
+                }
+                
+            }
+            
+        }
+    } 
+}
+@media screen and (max-width:840px) {
+    .departamentos{
+        .bloque{ 
+            .bloqueInfo{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-content: flex-start;
+                align-items: initial;
+                .info{
+                    width: 600px;
+                    display: flex;
+                    align-self: center; 
+                    .mapa{
+                        width: 594px;
+                    }
+                }
+                
+            }
+            
+        }
+    } 
+}
+@media screen and (max-width:750px) {
+    .departamentos{
+        .bloque{ 
+            .detalle{
+                display: flex;
+                justify-content: center;
+                .slide{
+                    width: 950px;
+                    margin-top: 50px;
+                    border: 2px solid black;
+                }
+            }  
+            .detalle2{
+                .img{
+                    height: 300px;
+                }
+            }
+            .bloquePng{
+                .bloqueindiv{
+                    display: flex;
+                    flex-direction: column;
+                    .png{  
+                        align-self: center;
+                        width: 70px;
+                        height: 70px;
+                    }
+                    .texto{
+                        color: black;
+                        text-align: center;
+                        font-weight: 500;
+                        font-size: 15px;
+                    }
+                } 
+            }
+            .bloqueInfo{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-content: flex-start;
+                align-items: initial;
+                .info{
+                    width: 400px;
+                    display: flex;
+                    align-self: center; 
+                    .mapa{
+                        width: 394px;
+                        height: 394px;
+                    }
+                }
+                
+            }
+            
+        }
+    } 
+}
+@media screen and (max-width:480px) {
+    .departamentos{
+        .bloque{ 
+            .bloquePng{
+                flex-direction: column;
+                .bloqueindiv{
+                    display: flex;
+                    flex-direction: column;
+                    .png{  
+                        align-self: center;
+                        width: 100px;
+                        height: 100px;
+                    }
+                    .texto{
+                        color: black;
+                        text-align: center;
+                        font-weight: 500;
+                        font-size: 15px;
+                    }
+                } 
+            }
+            .bloqueInfo{
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-content: flex-start;
+                align-items: initial;
+                .info{
+                    width: 200px;
+                    display: flex;
+                    align-self: center; 
+                    .mapa{
+                        width: 194px;
+                        height: 194px;
+                    }
+                }
+                
+            }
+            
+        }
+    } 
+}

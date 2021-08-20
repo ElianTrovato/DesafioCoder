@@ -1,0 +1,62 @@
+#galeria{
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(120,98,79,1) 50%, rgba(0,0,0,1) 100%);
+    .btn-flotante{
+	    border-radius: 80px;
+	    background-color: rgb(184, 159, 159);
+	    padding: 18px 30px;
+	    position: fixed;
+	    bottom: 40px;
+	    right: 40px;
+	    transition: all 300ms ease 0ms;
+	    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	    z-index: 99;
+    }
+    .btn-flotante:hover {
+        background-color: gray;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-7px);
+    }
+    .titulo{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-decoration: underline;
+    }
+    .margen{
+        margin-top: 100px;
+        grid-template-columns: 30px;
+        .margen2{
+            margin-bottom: 30px;
+            color: white;
+            border: 2px solid white;
+            margin: 10px;
+            padding: 20px;
+            .descripcion{
+                text-decoration: underline white;
+                color: white;
+
+            }
+            .descripcion:hover{
+                font-weight: 700;
+            }
+            .seña{
+                color: gray;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .galeria{ 
+        .btn-flotante {
+            font-size: 14px;
+            padding: 12px 20px;
+            bottom: 20px;
+            right: 20px;
+        }
+    } 
+} 
+
+
