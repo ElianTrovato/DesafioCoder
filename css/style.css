@@ -393,7 +393,7 @@
 }
 
 .inicio {
-  background-image: url("img/imagengris.jpg");
+  background-image: url("../img/imagengris.jpg");
 }
 
 .inicio .headerinmo {
@@ -453,17 +453,17 @@
 }
 
 .intro .serv .padre .image1 {
-  background-image: url("img/adm.jpg");
+  background-image: url("../img/adm.jpg");
 }
 
 .intro .serv .padre .image2 {
-  background-image: url("img/val.jpg");
+  background-image: url("../img/val.jpg");
   margin-left: 50px;
   margin-right: 50px;
 }
 
 .intro .serv .padre .image3 {
-  background-image: url("img/rep.jpg");
+  background-image: url("../img/rep.jpg");
 }
 
 .intro .btn-flotante {

@@ -1,7 +1,7 @@
 @import "galeria";
 @import "detalle";
 .inicio{
-    background-image: url('img/imagengris.jpg');
+    background-image: url('../img/imagengris.jpg');
     .headerinmo{
         background-color: white;
         .nav{
@@ -43,15 +43,15 @@
                 transition-delay: 0s;
             }
             .image1{
-                background-image: url('img/adm.jpg'); 
+                background-image: url('../img/adm.jpg'); 
             }
             .image2{
-                background-image: url('img/val.jpg'); 
+                background-image: url('../img/val.jpg'); 
                 margin-left: 50px;
                 margin-right: 50px;
             }
             .image3{
-                background-image: url('img/rep.jpg'); 
+                background-image: url('../img/rep.jpg'); 
             }
         } 
     }
